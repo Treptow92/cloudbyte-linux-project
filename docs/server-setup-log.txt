@@ -1,0 +1,16 @@
+24.11.2026 Gérard Treptow
+- four groups created: engineering, marketing, operations, admins
+- twelve users created: alice, bob, carol, dave, emma, frank, grace, henry, iris, jack, kate, leo
+- assigned users to their groups:
+    - engineering: alice, bob, carol, dave
+    - marketing: emma, frank, grace
+    - operations: henry, iris, jack, kate, leo
+    - admins: kate, leo
+- directory structure:
+    /shared/
+    ├── engineering/       engineering group, mode 770
+    ├── marketing/         marketing group,   mode 770
+    ├── operations/        operations group,  mode 770
+    └── company-docs/      admins group,      mode 775
+    /logs/
+    └── reports/           admins group,      mode 775
